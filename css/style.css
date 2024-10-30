@@ -33,6 +33,9 @@ a {
 .header-nav-logo-blak {
   color: #2e2f42;
 }
+.header-nav-list {
+  color: #2e2f42;
+}
 .header-nav-item {
   color: #2e2f42;
   font-family: 'Roboto', sans-serif;
@@ -123,7 +126,7 @@ a {
 /* Team */
 
 .team {
-  background-color: #ffffff;
+  background-color: #f4f4fd;
 }
 .team-title {
   color: #2e2f42;
@@ -136,7 +139,10 @@ a {
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
-.team-card {
+.team-list {
+  background-color: #ffffff;
+}
+.team-name {
   color: #2e2f42;
   text-align: center;
   font-family: 'Roboto', sans-serif;
@@ -144,7 +150,7 @@ a {
   font-style: normal;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.2px;
 }
 .profession {
   color: #434455;
@@ -201,7 +207,7 @@ a {
   text-transform: uppercase;
 }
 .footer-logo-black {
-  color: #2e2f42;
+  color: color: #f4f4fd;
 }
 .footer-text {
   color: #f4f4fd;
