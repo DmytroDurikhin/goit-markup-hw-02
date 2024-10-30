@@ -18,6 +18,9 @@ a {
 }
 
 /* header */
+.header-nav-logo-blak {
+  color: #2e2f42;
+}
 
 .header-nav-logo {
   color: #4d5ae5;
@@ -28,10 +31,6 @@ a {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-}
-
-.header-nav-logo-blak {
-  color: #2e2f42;
 }
 .header-nav-list {
   color: #2e2f42;
@@ -204,7 +203,7 @@ a {
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
-.footer-logo-black {
+.footer-logo-white {
   color: #f4f4fd;
 }
 .footer-text {
