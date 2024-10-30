@@ -18,11 +18,16 @@ a {
 }
 
 /* header */
-.header {
-  color: #2e2f42;
-}
+
 .header-nav-logo-blak {
   color: #2e2f42;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
 }
 
 .header-nav-logo {
@@ -129,6 +134,9 @@ a {
 .team {
   background-color: #f4f4fd;
 }
+.team-card {
+  background-color: #ffffff;
+}
 .team-title {
   color: #2e2f42;
   text-align: center;
@@ -150,7 +158,7 @@ a {
   font-style: normal;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.02em;
 }
 .profession {
   color: #434455;
