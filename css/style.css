@@ -18,6 +18,9 @@ a {
 }
 
 /* header */
+.header {
+  color: #2e2f42;
+}
 .header-nav-logo-blak {
   color: #2e2f42;
 }
@@ -160,6 +163,9 @@ a {
   letter-spacing: 0.32px;
 }
 /* Portfolio */
+.portfolio {
+  background-color: #ffffff;
+}
 .portfolio-title {
   color: #2e2f42;
   text-align: center;
@@ -168,7 +174,7 @@ a {
   font-style: normal;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.72px;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 .portfolio-subtitle {
