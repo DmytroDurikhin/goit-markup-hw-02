@@ -18,12 +18,9 @@ a {
 }
 
 /* header */
-.header-nav-logo-blue {
-  color: #4d5ae5;
-}
 
 .header-nav-logo {
-  color: #2e2f42;
+  color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -31,6 +28,10 @@ a {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+}
+
+.header-nav-logo-blak {
+  color: #2e2f42;
 }
 .header-nav-item {
   color: #2e2f42;
@@ -40,6 +41,9 @@ a {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
+}
+.header-contacts {
+  font-style: normal;
 }
 
 .header-contacts-link {
@@ -54,17 +58,22 @@ a {
 }
 
 .header-nav-logo:hover,
-.header-nav-logo:focus,
+.header-nav-logo:focus {
+  color: #4d5ae5;
+}
 .header-nav-item-link:hover,
 .header-nav-item-link:focus,
 .header-contacts-link:hover,
 .header-contacts-link:focus {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 /* Hero */
+.hero {
+  background-color: #2e2f42;
+}
 .hero-title {
   color: #fff;
-  background-color: #2e2f42;
+
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-size: 56px;
@@ -87,7 +96,7 @@ a {
 }
 .hero-btn:hover,
 .hero-btn:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
 /* Benefits */
@@ -114,7 +123,7 @@ a {
 /* Team */
 
 .team {
-  background-color: #f4f4fd;
+  background-color: #ffffff;
 }
 .team-title {
   color: #2e2f42;
@@ -125,6 +134,7 @@ a {
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.72px;
+  text-transform: capitalize;
 }
 .team-card {
   color: #2e2f42;
@@ -156,6 +166,7 @@ a {
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.72px;
+  text-transform: capitalize;
 }
 .portfolio-subtitle {
   color: #2e2f42;
@@ -181,9 +192,6 @@ a {
 }
 .footer-logo {
   color: #4d5ae5;
-}
-.footer-logo-blue {
-  color: #2e2f42;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -191,6 +199,9 @@ a {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+}
+.footer-logo-black {
+  color: #2e2f42;
 }
 .footer-text {
   color: #f4f4fd;
@@ -200,4 +211,8 @@ a {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
+}
+.footer-logo:hover,
+.footer-logo:focus {
+  color: #4d5ae5;
 }
