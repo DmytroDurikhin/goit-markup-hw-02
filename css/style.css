@@ -1,3 +1,4 @@
+/* #region comment */
 body {
   color: #434455;
   background-color: #fff;
@@ -9,28 +10,18 @@ body {
   letter-spacing: 0.02em;
   text-align: left;
 }
-
-ul {
+r ul {
   list-style-type: none;
 }
 a {
   text-decoration: none;
 }
+r
+/* #endregion */
 
-/* header */
+/* #region Header */
 
-.header-nav-logo-black {
-  color: #2e2f42;
-  font-family: 'Raleway', sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-
-.header-nav-logo {
+.header-logo {
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -41,7 +32,11 @@ a {
   text-transform: uppercase;
 }
 
-.header-nav-item {
+.header-logo-black {
+  color: #2e2f42;
+}
+
+.header-link {
   color: #2e2f42;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -50,38 +45,26 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.menu {
-  color: #2e2f42;
-}
+
 .header-contacts {
   font-style: normal;
 }
 
 .header-contacts-link {
   color: #434455;
-
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-.current {
-  color: #434455;
 }
 
-.header-nav-logo-black:hover,
-.header-nav-logo:focus {
+.header-logo-black:hover,
+.header-logo:focus {
   color: #4d5ae5;
 }
-.header-nav-item-link:hover,
-.header-nav-item-link:focus,
+.header-link:hover,
+.header-link:focus,
 .header-contacts-link:hover,
 .header-contacts-link:focus {
   color: #404bbf;
-}
-/* Hero */
+  /* #endregion */
+} /* #region Hero */
 .hero {
   background-color: #2e2f42;
 }
@@ -112,9 +95,9 @@ a {
 .hero-btn:focus {
   background-color: #404bbf;
 }
+/* #endregion */
 
-/* Benefits */
-
+/* #region Benefits */
 .benefits-subtitle {
   color: #2e2f42;
   font-family: 'Roboto', sans-serif;
@@ -133,9 +116,9 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+/* #endregion */
 
-/* Team */
-
+/* #region Team */
 .team {
   background-color: #f4f4fd;
 }
@@ -175,7 +158,9 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-/* Portfolio */
+/* #endregion */
+
+/* #region Portfolio */
 .portfolio {
   background-color: #ffffff;
 }
@@ -209,7 +194,9 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-/* Footer */
+/* #endregion */
+
+/* #region Footer */
 .footer {
   background-color: #2e2f42;
 }
@@ -239,3 +226,4 @@ a {
 .footer-logo:focus {
   color: #4d5ae5;
 }
+/* #endregion */
